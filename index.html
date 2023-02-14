@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  
+  <div id="box">
+    <div class="box-overloay">
+      <p>keembloo</p>
+      <p>개멋져~!!!!!</p>
+    </div>
+  </div>
+  <script>
+    
+    var 박스 = document.getElementById("box");
+
+    박스.addEventListener("mouseover", function(){
+      박스.style.width = "200px";
+    });
+    
+    박스.addEventListener("mouseout", function(){
+      박스.style.width = "100px";
+    });
+  </script>
+  
+</body>
+</html>
